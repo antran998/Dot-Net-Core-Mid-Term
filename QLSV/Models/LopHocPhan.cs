@@ -12,9 +12,7 @@ namespace QLSV.Models
         public string MaLHP { get; set; }
         public string Namhoc { get; set; }
         public string Hocky { get; set; }
-        public string Mon { get; set; }
-        public double DiemGK { get; set; }
-        public double DiemCK { get; set; }
+        public string Mon { get; set; }        
         public ICollection<SinhVien> Sinhvien { get; set; }
         public MonHoc Monhoc { get; set; }
     }

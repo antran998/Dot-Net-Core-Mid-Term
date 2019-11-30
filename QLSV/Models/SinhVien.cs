@@ -13,6 +13,10 @@ namespace QLSV.Models
         public string Hoten { get; set; }
         public DateTime Ngaysinh { get; set; }
         public string Dienthoai { get; set; }
+        public double DiemGK { get; set; }
+        public double DiemCK { get; set; }
         public Khoa Khoa { get; set; }
+        public LopHocPhan LopHocPhan { get; set; }
+
     }
 }

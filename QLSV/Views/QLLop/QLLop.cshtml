@@ -1,0 +1,58 @@
+﻿@model IEnumerable<QLSV.Models.LopHocPhan>
+
+@{
+    ViewData["Title"] = "QLLop";
+}
+
+<h1>QLLop</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Namhoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hocky)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mon)
+            </th>
+            <th>
+                DiemGK
+            </th>
+            <th>
+                DiemCK
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Namhoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hocky)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mon)
+            </td>
+            <td>
+                @item.Sinhvien.Sum(x=>x.DiemGK)
+            </td>
+            <td>
+                @item.Sinhvien.Sum(x => x.DiemCK)
+            </td>
+            @*<td>
+            <a asp-action="Edit" asp-route-id="@item.MaLHP">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.MaLHP">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.MaLHP">Delete</a>
+        </td>*@
+        </tr>
+}
+    </tbody>
+</table>

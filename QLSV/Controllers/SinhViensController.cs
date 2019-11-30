@@ -17,10 +17,21 @@ namespace QLSV.Controllers
         {
             _context = context;
         }
-
+        
         // GET: SinhViens
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string malophp,string mamon)
         {
+            if (!string.IsNullOrEmpty(malophp))
+            {
+                return View(await _context.SinhVien.Include(x=>x.LopHocPhan)
+                    .Where(x=>x.LopHocPhan.MaLHP==malophp).ToListAsync());
+            }
+            if (!string.IsNullOrEmpty(mamon))
+            {
+                return View(await _context.SinhVien.Include(x => x.LopHocPhan).ThenInclude(x=>x.Monhoc)
+                       .Where(x => x.LopHocPhan.Monhoc.Mamon == mamon).ToListAsync());
+
+            }
             return View(await _context.SinhVien.ToListAsync());
         }
 
@@ -53,7 +64,7 @@ namespace QLSV.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaSV,Hoten,Ngaysinh,Dienthoai")] SinhVien sinhVien)
+        public async Task<IActionResult> Create([Bind("MaSV,Hoten,Ngaysinh,Dienthoai,KhoaMaKhoa,LopHocPhanMaLHP,DiemGK,DiemCK")] SinhVien sinhVien)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +96,7 @@ namespace QLSV.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("MaSV,Hoten,Ngaysinh,Dienthoai")] SinhVien sinhVien)
+        public async Task<IActionResult> Edit(string id, [Bind("MaSV,Hoten,Ngaysinh,Dienthoai,DiemGK,DiemCK")] SinhVien sinhVien)
         {
             if (id != sinhVien.MaSV)
             {

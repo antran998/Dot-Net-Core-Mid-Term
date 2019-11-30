@@ -21,6 +21,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Dienthoai)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiemGK)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiemCK)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -35,6 +41,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Dienthoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemGK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiemCK)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MaSV">Edit</a> |
