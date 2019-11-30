@@ -6,24 +6,24 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QLSV.Models;
-
+ 
 namespace QLSV.Controllers
 {
     public class MonHocsController : Controller
     {
         private readonly ApplicationDbContext _context;
-
+ 
         public MonHocsController(ApplicationDbContext context)
         {
             _context = context;
         }
-
+ 
         // GET: MonHocs
         public async Task<IActionResult> Index()
         {
             return View(await _context.MonHoc.ToListAsync());
         }
-
+ 
         // GET: MonHocs/Details/5
         public async Task<IActionResult> Details(string id)
         {
@@ -31,23 +31,27 @@ namespace QLSV.Controllers
             {
                 return NotFound();
             }
-
+ 
             var monHoc = await _context.MonHoc
                 .FirstOrDefaultAsync(m => m.Mamon == id);
             if (monHoc == null)
             {
                 return NotFound();
             }
-
+ 
+            var sinhVien = _context.MonHoc.Include(monHoc => monHoc.Lophocphan)
+                                        .ThenInclude(lopHP => lopHP.Sinhvien).ToList();
+ 
+            ViewBag.SV = sinhVien;
             return View(monHoc);
         }
-
+ 
         // GET: MonHocs/Create
         public IActionResult Create()
         {
             return View();
         }
-
+ 
         // POST: MonHocs/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -63,7 +67,7 @@ namespace QLSV.Controllers
             }
             return View(monHoc);
         }
-
+ 
         // GET: MonHocs/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
@@ -71,7 +75,7 @@ namespace QLSV.Controllers
             {
                 return NotFound();
             }
-
+ 
             var monHoc = await _context.MonHoc.FindAsync(id);
             if (monHoc == null)
             {
@@ -79,7 +83,7 @@ namespace QLSV.Controllers
             }
             return View(monHoc);
         }
-
+ 
         // POST: MonHocs/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -91,7 +95,7 @@ namespace QLSV.Controllers
             {
                 return NotFound();
             }
-
+ 
             if (ModelState.IsValid)
             {
                 try
@@ -114,7 +118,7 @@ namespace QLSV.Controllers
             }
             return View(monHoc);
         }
-
+ 
         // GET: MonHocs/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
@@ -122,17 +126,17 @@ namespace QLSV.Controllers
             {
                 return NotFound();
             }
-
+ 
             var monHoc = await _context.MonHoc
                 .FirstOrDefaultAsync(m => m.Mamon == id);
             if (monHoc == null)
             {
                 return NotFound();
             }
-
+ 
             return View(monHoc);
         }
-
+ 
         // POST: MonHocs/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -143,7 +147,7 @@ namespace QLSV.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
+ 
         private bool MonHocExists(string id)
         {
             return _context.MonHoc.Any(e => e.Mamon == id);

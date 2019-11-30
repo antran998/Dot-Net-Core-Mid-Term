@@ -1,11 +1,11 @@
 ﻿@model QLSV.Models.MonHoc
-
+ 
 @{
     ViewData["Title"] = "Details";
 }
-
+ 
 <h1>Details</h1>
-
+ 
 <div>
     <h4>MonHoc</h4>
     <hr />
@@ -25,6 +25,42 @@
     </dl>
 </div>
 <div>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Tenmon)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Tenmon)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Sotinhi)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Sotinhi)
+    </dd>
     <a asp-action="Edit" asp-route-id="@Model.Mamon">Edit</a> |
     <a asp-action="Index">Back to List</a>
+</div>
+ 
+<div>
+    @foreach (var item in @ViewBag.SV)
+    {
+        <dt class = "col-sm-2">
+            Tên SV
+        </dt>
+        <dd class = "col-sm-10">
+            @item.Hoten
+        </dd>
+        <dt class = "col-sm-2">
+            Điểm giữa kì
+        </dt>
+        <dd class = "col-sm-10">
+            @item.DiemGK
+        </dd>
+        <dt class = "col-sm-2">
+            Điểm cuối kì
+        </dt>
+        <dd class = "col-sm-10">
+            @item.DiemCK
+        </dd>
+    }
 </div>
