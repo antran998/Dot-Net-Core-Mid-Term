@@ -30,3 +30,43 @@ C:\Users\Admin\source\repos\QLSV\QLSV\obj\Debug\netcoreapp2.2\QLSV.Views.pdb
 C:\Users\Admin\source\repos\QLSV\QLSV\obj\Debug\netcoreapp2.2\QLSV.dll
 C:\Users\Admin\source\repos\QLSV\QLSV\obj\Debug\netcoreapp2.2\QLSV.pdb
 C:\Users\Admin\source\repos\QLSV\QLSV\obj\Debug\netcoreapp2.2\QLSV.csproj.CopyComplete
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.deps.json
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.runtimeconfig.json
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.runtimeconfig.dev.json
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.dll
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.pdb
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.Views.dll
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\bin\Debug\netcoreapp2.2\QLSV.Views.pdb
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.csprojAssemblyReference.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.csproj.CoreCompileInputs.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.RazorAssemblyInfo.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.RazorAssemblyInfo.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.AssemblyInfoInputs.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.AssemblyInfo.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.TagHelpers.input.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.TagHelpers.output.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.RazorCoreGenerate.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.RazorTargetAssemblyInfo.cache
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.RazorTargetAssemblyInfo.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.Views.pdb
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.dll
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.pdb
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\QLSV.csproj.CopyComplete
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Khoas\Create.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Khoas\Delete.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Khoas\Details.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Khoas\Edit.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\Khoas\Index.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\SinhViens\Create.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\SinhViens\Delete.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\SinhViens\Details.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\SinhViens\Edit.g.cshtml.cs
+C:\Users\Hien Kwan\Desktop\Dotnet\Dot-Net-Core-Mid-Term\QLSV\obj\Debug\netcoreapp2.2\Razor\Views\SinhViens\Index.g.cshtml.cs
